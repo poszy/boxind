@@ -1,0 +1,17 @@
+
+
+
+
+body{
+  background: url('img/background.jpg');
+      background-repeat:repeat;
+     display: compact;
+}
+
+.jumbotron{
+  background-color: white;
+  width:990px;
+  margin:auto;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
