@@ -1,17 +1,26 @@
 
-
-
-
 body{
   background: url('img/background.jpg');
       background-repeat:repeat;
      display: compact;
 }
 
-.jumbotron{
+
+.container .jumbotron {
+    border-radius: 0px;
+    background-color: white;
+    margin:auto;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    
+}
+
+.page-header{
   background-color: white;
-  width:990px;
-  margin:auto;
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  margin: 0px;
+  height:80px;
+}
+
+.page-header h1{
+  margin-top:0px;
 }
