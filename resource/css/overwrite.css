@@ -1,25 +1,44 @@
 
+
+@font-face {
+    font-family: box-font;
+    src: url(resource/font/b.tff);
+}
 body{
   background: url('img/background.jpg');
-      background-repeat:repeat;
-     display: compact;
+  background-repeat:repeat;
+  display: compact;
 }
 
-
+@media (min-width: 900px) {
 .container .jumbotron {
     border-radius: 0px;
     background-color: white;
     margin:auto;
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
-    
+    width:900px;
+
 }
 
 .page-header{
-  background-color: white;
-  margin: 0px;
-  height:80px;
+  background: url('img/header-bg.png');
+  background-repeat:repeat;
+  height:auto;
+  padding-top:0px;
+  padding-bottom:0px;
+  margin-top:0px;
+  margin-bottom:0px;
+
+
 }
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
+ }
 
 .page-header h1{
   margin-top:0px;

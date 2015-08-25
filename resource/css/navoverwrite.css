@@ -1,9 +1,13 @@
+@font-face {
+    font-family: box-font;
+    src: url(resource/font/BankGothic.tff);
+}
 /* navbar */
 .navbar-default {
     background-color:#7fbb4d;
     border-color: #7fbb4d;
-    margin: 0px auto;
     margin-bottom: 0px;
+    height:20px;
 
 
 }
@@ -18,9 +22,10 @@
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
+    font-family:box-font;
+    font-size:17px;
+    text-transform: uppercase;
     color: white;
-    border-right: 1px solid white;
-
 
 }
 .navbar-default .navbar-nav > li > a:hover,
@@ -65,4 +70,22 @@
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color:white;
+}
+
+
+
+@media (min-width: 900px) {
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float:none;
+
+
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+        width:900px;
+        margin:0px auto;
+    }
 }
