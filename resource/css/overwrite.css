@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: box-font;
-    src: url(resource/font/b.tff);
+    src: url(resource/font/B.ttf);
 }
 body{
   background: url('img/background.jpg');
@@ -10,14 +10,14 @@ body{
   display: compact;
 }
 
-@media (min-width: 900px) {
+
 .container .jumbotron {
     border-radius: 0px;
     background-color: white;
     margin:auto;
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
-    width:900px;
+
 
 }
 
@@ -32,7 +32,7 @@ body{
 
 
 }
-}
+
 .center-block {
   display: block;
   margin-left: auto;
