@@ -1,9 +1,15 @@
 
-
 @font-face {
     font-family: box-font;
-    src: url(resource/font/B.ttf);
+    src: url(../font/B.ttf);
 }
+
+
+@font-face {
+    font-family: box-font-p;
+    src: url(../font/BankGothic.ttf);
+}
+
 body{
   background: url('img/background.jpg');
   background-repeat:repeat;
@@ -42,4 +48,37 @@ body{
 
 .page-header h1{
   margin-top:0px;
+}
+
+
+/****Text overides for templates ******/
+
+.jumbotron h1 {
+  font-family:box-font-p;
+  text-transform: uppercase;
+  color: black;
+  margin:auto;
+}
+
+.jumbotron h2{
+  font-family:box-font-p;
+  text-transform: uppercase;
+  color: red;
+  margin:auto;
+  text-decoration:underline;
+
+}
+
+.jumbotron label{
+  color: red;
+
+  text-decoration:underline;
+  font-weight: normal;
+}
+
+
+.jumbotron p{
+  color: black;
+
+  font-weight: normal;
 }
