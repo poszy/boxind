@@ -4,10 +4,10 @@
 }
 /* navbar */
 .navbar-default {
-    background-color:#7fbb4d;
-    border-color: #7fbb4d;
-    margin-bottom: 0px;
-    height:20px;
+  background-color:rgb(125, 189, 77);
+   border-color:rgb(125, 189, 77);
+   margin-bottom: 0px;
+   height:20px;
 
 
 }
@@ -82,7 +82,6 @@
 
 .navbar .navbar-collapse {
         text-align: center;
-
         margin:0px auto;
         text-align:center;
     }
@@ -93,3 +92,78 @@
     font-size:32px;
     color:white;
   }
+
+
+
+
+  /* Nav Bar Overide*/
+.navbar-default {
+  background-color: rgb(125, 189, 77);
+  border-bottom: 1px solid rgb(125, 189, 77);
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color:#black;
+
+}
+
+/******************************Nav Bar Branding Logo overide**************************/
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand  {
+  color: #F5F5F5 ;
+}
+
+a:hover .navbar-brand{
+  color: #FFEB3B;
+}
+
+.navbar-default .navbar-brand a:hover{
+  color:blue;
+}
+
+/******************************End Branding Overside*********************************/
+
+
+
+/******************************Nav Bar a text on Active overide**************************/
+
+.navbar-default .navbar-nav>.active>a{
+  /*This is for the text inside the active block including background,
+    and only the default text color not hover*/
+
+  color:#F5F5F5;
+  background-color: #1B5E20;
+}
+
+/*This is for the text hover inside the active block, including hover background*/
+
+.navbar-default .navbar-nav>.active>a:hover{
+  background-color: #1B5E20;
+  color: #FFEB3B;
+}
+/******************************End Nav Bar a text on Active overide**************************/
+a.drop-down-toggle{
+
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  color:#FFEB3B;
+  background-color:#1B5E20;
+
+}
+
+* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #7fbb4d;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:white;
+}
+
+
+
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+  color:green;
+}
