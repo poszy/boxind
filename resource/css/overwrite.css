@@ -20,8 +20,6 @@ body{
 .container .jumbotron {
     border-radius: 0px;
     background-color: white;
-    text-align: center;
-    border-bottom: 1px solid #e5e5e5;
     padding-left: 10px;
     padding-right:10px;
     padding-top:10px;
@@ -58,30 +56,35 @@ body{
 
 .jumbotron h1 {
   font-family:box-font-p;
+  font-size:38px;
   text-transform: uppercase;
   color: black;
-  margin:auto;
+  text-align: center;
+
 }
 
 .jumbotron h2{
   font-family:box-font-p;
   text-transform: uppercase;
   color: red;
-  margin:auto;
+  text-align:center;
   text-decoration:underline;
 
 }
 
 .jumbotron label{
   color: red;
-
   text-decoration:underline;
   font-weight: normal;
 }
 
-
+.jumbotron label blue{
+  color: blue;
+  text-decoration:underline;
+  font-weight: normal;
+}
 .jumbotron p{
   color: black;
-
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 19px;
 }
