@@ -22,11 +22,12 @@
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
-    font-family:box-font;
+    font-family: 'Abel', sans-serif;
     text-transform: uppercase;
     color: white;
     padding: 2px auto;
     margin:auto;
+    font-size:23px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -176,7 +177,7 @@ a.drop-down-toggle{
 
 }
 .navbar-default .navbar-collapse{
-    background-color: #7fbb4d;
+
     margin:0;
     padding:0;
 
