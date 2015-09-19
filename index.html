@@ -74,8 +74,10 @@ body {
   background-color: white;
   margin: 0 auto;
   width: 100%
+  }
+
 }
-}
+
 .container-narrow > hr {
   margin: 30px 0;
 }
@@ -136,13 +138,13 @@ body {
 
 }
 
-navbar-default .navbar-nav > li > a {
-    font-family: 'Abel', sans-serif;
+.navbar-default .navbar-nav > li > a {
+   
     text-transform: uppercase;
     color: white;
     padding: 2px auto;
     margin:auto;
-    font-weight:bold;
+    font-size:20px;
 
 }
 
@@ -153,13 +155,12 @@ navbar-default .navbar-nav > li > a {
 }
 
 </style>
-  </head>
+
+</head>
 
   <body>
 
-    
     <div class="container-fullwidth">
-
       <div class="page-header">
         <img src="resource/css/img/new-header.jpg" class="img-responsive" alt="Cinque Terre" width="730" height="93">
       </div>
@@ -169,7 +170,7 @@ navbar-default .navbar-nav > li > a {
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
-		    <span class="icon-bar"></span>
+		          <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
@@ -180,7 +181,7 @@ navbar-default .navbar-nav > li > a {
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apparel <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">B-o-X Industries</a></li>
+                  <li><a href="index.html">B-o-X Industries</a></li>
                   <li><a href="#">Custom Printing</a></li>
                 </ul>
               </li>
@@ -195,8 +196,6 @@ navbar-default .navbar-nav > li > a {
               <li><a href="#">Get Quoted</a></li>
               <li><a href="#">About Us</a></li>
               <li><a href="#">Contact Us</a></li>
-
-
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -350,8 +349,20 @@ navbar-default .navbar-nav > li > a {
              </a>
            </div><!-- /.carousel -->
            </div> <!-- /jumbotron-->
-
+           <div class = "container-fluid">
           <img src="resource/css/img/next.jpg" class="img-responsive" alt="Cinque Terre" width="730" height="236" style="margin-bottom:10px;">
+
+          <div id="getting-started"></div>
+             <script type="text/javascript">
+               $("#getting-started")
+               .countdown("2016/01/01", function(event) {
+                 $(this).text(
+                   event.strftime('%D days %H:%M:%S')
+                 );
+                });
+             </script>
+          </div>
+
           <img src="resource/css/img/promo.jpg" class="img-responsive" alt="Cinque Terre" width="730" height="236" style="margin-bottom:10px;">
 
 
@@ -369,5 +380,8 @@ navbar-default .navbar-nav > li > a {
     <script src="resource/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="resource/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="resource/js/jquery.countdown.js"></script>
+    <script src="resource/js/jquery.countdown.min.js"></script>
   </body>
 </html>

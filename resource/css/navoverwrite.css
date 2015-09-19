@@ -22,12 +22,12 @@
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
-    font-family: 'Abel', sans-serif;
+    
     text-transform: uppercase;
     color: white;
     padding: 2px auto;
     margin:auto;
-    font-size:23px;
+    font-size:18px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {

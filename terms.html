@@ -23,6 +23,7 @@
 <!-- Custom overide -->
 <link href="resource/css/overwrite.css" style ="text/css" rel="stylesheet">
 <link href="resource/css/navoverwrite.css" style ="text/css" rel="stylesheet">
+
 <style type = "text/css">
 /* Space out content a bit */
 body {
@@ -63,17 +64,27 @@ body {
     max-width: 730px;
     padding:0;
     margin-top:0px;
+
+
   }
+
+  .container-fullwidth{
+  background-color: white;
+  margin: 0 auto;
+  width: 100%;
+  }
+
 }
+
 .container-narrow > hr {
   margin: 30px 0;
 }
 
 /* Main marketing message and sign up button */
 .jumbotron {
-
+  text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  padding:10px;
+  padding-bottom:3px;
 }
 .jumbotron .btn {
   padding: 14px 24px;
@@ -124,17 +135,31 @@ body {
  color:black;
 
 }
+
+navbar-default .navbar-nav > li > a {
+    font-family: 'Abel', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding: 2px auto;
+    margin:auto;
+    font-weight:bold;
+
+}
+
 .img .center-block .custom{ padding:0; margin-top:5px;}
+
+.img-responsive{margin: 0 auto;}
+
 }
 
 </style>
-  </head>
+</head>
 
   <body>
-
-    <div class="container">
+      <div class="container-fullwidth">
       <div class="page-header">
-        <img src="resource/css/img/header.png" class="img-responsive" alt="Cinque Terre" width="730" height="93">
+
+        <img src="resource/css/img/new-header.jpg" class="img-responsive" alt="Cinque Terre" width="730" height="93">
       </div>
         <!-- Static navbar -->
       <nav class="navbar navbar-default">
@@ -153,7 +178,7 @@ body {
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apparel <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">B-o-X Industries</a></li>
+                  <li><a href="index.html">B-o-X Industries</a></li>
                   <li><a href="#">Custom Printing</a></li>
                 </ul>
               </li>
@@ -174,8 +199,9 @@ body {
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
       </nav>
+    </div> <!-- end nav header container -->
 
-
+      <div class="container">
       <div class="jumbotron">
         <h1> Terms and Conditions </h1>
 
@@ -270,13 +296,13 @@ body {
       </p>
 
        </div> <!-- /jumbotron-->
-
+       </div><!-- /container -->
 
 
       <footer class="footer">
         <p>&copy; Company 2014</p>
       </footer>
-</div><!-- /container -->
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
